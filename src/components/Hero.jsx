@@ -45,14 +45,14 @@ const Hero = () => {
                 colors: ['#F4D35E', '#E63946', '#ffffff']
             });
 
-        }, 3000); // 3 seconds delay
+        }, 4000); // 4 seconds delay
     };
 
     return (
         <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden z-10">
 
             {/* Sound Effect File - Placeholder */}
-            <audio ref={audioRef} src="/drumroll.mp3" preload="auto" />
+            <audio ref={audioRef} src="/src/assets/drumroll-opening.mp3" preload="auto" />
 
             <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
