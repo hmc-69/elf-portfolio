@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight-pine: #051F20;
+  --color-workshop-slate: #0F2E2E;
+  --color-candy-red: #E63946;
+  --color-tech-gold: #F4D35E;
+  --color-snow-drift: #F1FAEE;
+  --color-glacial-mist: #A8DADC;
+  --color-aurora-green: #80FFDB;
+
+  --font-berkshire: "Berkshire Swash", cursive;
+  --font-outfit: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-midnight-pine text-snow-drift font-outfit overflow-x-hidden;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-berkshire text-tech-gold;
+}
