@@ -52,7 +52,7 @@ const Hero = () => {
         <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden z-10">
 
             {/* Sound Effect File - Placeholder */}
-            <audio ref={audioRef} src="/src/assets/drumroll-opening.mp3" preload="auto" />
+            <audio ref={audioRef} src="/sounds/drumroll-opening.mp3" preload="auto" />
 
             <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
